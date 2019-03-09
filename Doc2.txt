@@ -1,1 +1,6 @@
-a simple to-do list plus some special features
+a simple to-do list plus some special features...
+Score,
+Balance,
+league of heroes
+time
+distraction
