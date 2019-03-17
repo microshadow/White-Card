@@ -1,0 +1,20 @@
+{
+  "name": "signup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[A\u001b[B",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/microshadow/White-Card"
+  },
+  "author": "microshadow",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
