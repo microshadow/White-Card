@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fc6410-472c-4354-bfdf-1dfd836bfbaa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/signup/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/signup/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/signup/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup/success.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,20 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/signup/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="390">
+              <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/signup/success.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="391">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -64,8 +65,8 @@
         <option value="$PROJECT_DIR$/signup/signup.html" />
         <option value="$PROJECT_DIR$/signup/failure.html" />
         <option value="$PROJECT_DIR$/signup/Procfile" />
-        <option value="$PROJECT_DIR$/signup/app.js" />
         <option value="$PROJECT_DIR$/signup/success.html" />
+        <option value="$PROJECT_DIR$/signup/app.js" />
       </list>
     </option>
   </component>
@@ -166,15 +167,16 @@
       <workItem from="1552611815034" duration="5989000" />
       <workItem from="1552702756448" duration="3185000" />
       <workItem from="1552760624658" duration="12684000" />
-      <workItem from="1552859705783" duration="994000" />
+      <workItem from="1552859705783" duration="2061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22852000" />
+    <option name="totallyTimeSpent" value="23919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17807351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -246,17 +248,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/signup/app.js">
+    <entry file="file://$PROJECT_DIR$/signup/success.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="391">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/signup/success.html">
+    <entry file="file://$PROJECT_DIR$/signup/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        <state relative-caret-position="390">
+          <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
         </state>
       </provider>
     </entry>

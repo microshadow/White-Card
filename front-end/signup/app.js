@@ -36,7 +36,7 @@ app.post("/", (req,res) => {
         url: "https://us20.api.mailchimp.com/3.0/lists/755e5160f9",
         method: "POST",
         headers:{
-            "Authorization":"microshadow 12ae7f50954d082f842ef87d7941812c-us20"
+            "Authorization":"microshadow 6c1a54feafb3d86f51a6a9110572f673-us20"
         },
         body:jsonData
     };
