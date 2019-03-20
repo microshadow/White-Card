@@ -36,9 +36,9 @@ app.post("/", (req,res) => {
         url: "https://us20.api.mailchimp.com/3.0/lists/755e5160f9",
         method: "POST",
         headers:{
-            "Authorization":"microshadow 6c1a54feafb3d86f51a6a9110572f673-us20"
-        },
-        body:jsonData
+            "Authorization":"microshadow "   // should have API key here
+        },                                   // but cannot public to github
+        body:jsonData                        // during development, copy the API key from .txt file
     };
 
     request(options, (err,respond,body) => {
@@ -54,6 +54,10 @@ app.post("/", (req,res) => {
 });
 
 app.post("/failure", (req,res) => {
+    res.sendFile(__dirname + "/signup.html")
+});
+
+app.post("/success", (req,res) => {
     res.sendFile(__dirname + "/signup.html")
 });
 
