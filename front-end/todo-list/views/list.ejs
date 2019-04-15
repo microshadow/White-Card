@@ -12,10 +12,13 @@
 
 <div class="box">
     <% tasks.forEach(element => { %>
-        <div class="item">
-            <input type="checkbox">
-            <p><%= element.name %></p>
-        </div>
+        <form action="/delete" method="post">
+            <div class="item">
+                <input type="checkbox" name="checkbox" value="<%= element._id %>" onchange="this.form.submit()">
+                <p><%= element.name %></p>
+            </div>
+            <input type="hidden" name="listName" value="<%= day %>">
+        </form>
     <% }) %>
 
     <!--<% for (let i = 0; i < tasks.length; i++){ %>-->
@@ -27,7 +30,7 @@
 
         <form class="item" action="/" method="post">
             <input type="text" name="newTask" placeholder="enter your task" autocomplete="off">
-            <button type="submit" name="button">+</button>
+            <button type="submit" name="list" value="<%= day %>">+</button>
         </form>
 
 </div>
